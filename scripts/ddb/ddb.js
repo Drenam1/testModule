@@ -9,5 +9,5 @@ $.getJSON('http://time.jsontest.com', function(data) {
                 Unix time: ${data.milliseconds_since_epoch}`
                 
     
-    $(".mypanel").html(text);
+    console.log(text)
 });
