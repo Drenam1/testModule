@@ -24,7 +24,6 @@
     "/scripts/module.js"
   ],
   "scripts": [
-    "/scripts/ddb/ddb.js",
     "/scripts/lib/lib.js"
   ],
   "styles": [
