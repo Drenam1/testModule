@@ -2,7 +2,6 @@ console.log("Is this thing on?");
 var characterIds = ['43646479']
 
 let url = 'https://www.dndbeyond.com/profile/MrCandleguyDM/characters/'+characterIds[0]
-let obj = await (await fetch(url)).json();
 $.getJSON('http://time.jsontest.com', function(data) {
         
     var text = `Date: ${data.date}<br>
